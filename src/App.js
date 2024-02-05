@@ -14,7 +14,7 @@ function App() {
   useEffect(() => {
     fetch('https://jsonplaceholder.typicode.com/users')
       .then((res) => res.json())
-      .then((json) => setUsers(json));
+      .then((json) => setUsers(json)); 
   }, []);
 
   function onChange(id, key, value) {
